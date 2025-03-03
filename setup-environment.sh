@@ -41,9 +41,9 @@ create_registry_secrets_in_serving(){
 }
 
 install_go(){
-    go install golang.org/dl/go1.22.7@latest
-    go1.22.7 download
-    alias go=/go/bin/go1.22.7
+    go install golang.org/dl/go1.23.6@latest
+    go1.23.6 download
+    alias go=/go/bin/go1.23.6
 }
 
 install_contour(){
