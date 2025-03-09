@@ -29,7 +29,7 @@ then
 elif [[ "$1" == "delete" ]]
 then
     echo "Resources deletion started "
-    pushd $GOPATH/src/github.com/ppc64le-cloud/knative-tkn-upstream-ci
+    pushd $GOPATH/src/github.com/valen-mascarenhas14/knative-tkn-upstream-ci
     kubetest2 tf --powervs-region syd --powervs-zone syd05 \
       --powervs-service-id af3e8574-29ea-41a2-a9c5-e88cba5c5858 \
       --ignore-cluster-dir true \
